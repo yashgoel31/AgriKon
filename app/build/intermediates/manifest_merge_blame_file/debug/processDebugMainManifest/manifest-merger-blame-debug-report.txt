@@ -1,0 +1,755 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.agriconnect"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:6:5-66
+11-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="com.example.otherapp.permission.READ_DATA" />
+12-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:39:5-81
+12-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:39:22-78
+13
+14    <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
+15    <queries>
+15-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:8:5-12:15
+16
+17        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+18        <package android:name="com.android.chrome" />
+18-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:11:9-54
+18-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:11:18-51
+19        <!-- Needs to be explicitly declared on Android R+ -->
+20        <package android:name="com.google.android.apps.maps" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yash\.gradle\caches\8.10.2\transforms\51e7a165a71fdfeeef9f57d908ce14d8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yash\.gradle\caches\8.10.2\transforms\51e7a165a71fdfeeef9f57d908ce14d8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+21    </queries>
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+23-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:22-76
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:25:5-68
+24-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:25:22-65
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:26:22-107
+26    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+26-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:25:5-79
+26-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:25:22-76
+27    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+27-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:26:5-88
+27-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:26:22-85
+28    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+28-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:27:5-82
+28-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:27:22-79
+29    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+29-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\24b0bf4aaf7e91ae9b35dc7b647359ab\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+29-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\24b0bf4aaf7e91ae9b35dc7b647359ab\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yash\.gradle\caches\8.10.2\transforms\51e7a165a71fdfeeef9f57d908ce14d8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yash\.gradle\caches\8.10.2\transforms\51e7a165a71fdfeeef9f57d908ce14d8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yash\.gradle\caches\8.10.2\transforms\51e7a165a71fdfeeef9f57d908ce14d8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+34
+35    <permission
+35-->[androidx.core:core:1.13.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf3e1b9366775630f25e8a757d2e923\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+36        android:name="com.example.agriconnect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.13.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf3e1b9366775630f25e8a757d2e923\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.13.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf3e1b9366775630f25e8a757d2e923\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.example.agriconnect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.13.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf3e1b9366775630f25e8a757d2e923\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.13.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf3e1b9366775630f25e8a757d2e923\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:7:5-38:19
+42        android:allowBackup="true"
+42-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:8:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.13.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf3e1b9366775630f25e8a757d2e923\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+44        android:dataExtractionRules="@xml/data_extraction_rules"
+44-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:9:9-65
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:fullBackupContent="@xml/backup_rules"
+47-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:10:9-54
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:11:9-43
+49        android:label="@string/app_name"
+49-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:12:9-41
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:13:9-54
+51        android:supportsRtl="true"
+51-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:14:9-35
+52        android:testOnly="true"
+53        android:theme="@style/Theme.AGRICONNECT" >
+53-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:15:9-49
+54        <activity
+54-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:17:9-19:40
+55            android:name="com.example.agriconnect.Farmer_Main.FarmerMainActivity"
+55-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:18:13-59
+56            android:exported="false" />
+56-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:19:13-37
+57        <activity
+57-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:20:9-22:40
+58            android:name="com.example.agriconnect.Basic.SignIn"
+58-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:21:13-41
+59            android:exported="false" />
+59-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:22:13-37
+60        <activity
+60-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:23:9-25:40
+61            android:name="com.example.agriconnect.Basic.SignUp"
+61-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:24:13-41
+62            android:exported="false" />
+62-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:25:13-37
+63        <activity
+63-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:26:9-35:20
+64            android:name="com.example.agriconnect.Basic.MainActivity"
+64-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:27:13-47
+65            android:exported="true" >
+65-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:28:13-36
+66            <intent-filter>
+66-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:29:13-33:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:30:17-69
+67-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:30:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:32:17-77
+69-->C:\Users\Yash\AndroidStudioProjects\AGRI-CONNECT1\app\src\main\AndroidManifest.xml:32:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:8:9-11:69
+73            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+73-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:9:13-80
+74            android:exported="false"
+74-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:10:13-37
+75            android:theme="@style/StripePaymentSheetDefaultTheme" />
+75-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:11:13-66
+76        <activity
+76-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:12:9-15:69
+77            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+77-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:13:13-82
+78            android:exported="false"
+78-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:14:13-37
+79            android:theme="@style/StripePaymentSheetDefaultTheme" />
+79-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:15:13-66
+80        <activity
+80-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:16:9-19:69
+81            android:name="com.stripe.android.customersheet.CustomerSheetActivity"
+81-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:17:13-82
+82            android:exported="false"
+82-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:18:13-37
+83            android:theme="@style/StripePaymentSheetDefaultTheme" />
+83-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:19:13-66
+84        <activity
+84-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:20:9-23:69
+85            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+85-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:21:13-97
+86            android:exported="false"
+86-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:22:13-37
+87            android:theme="@style/StripePaymentSheetDefaultTheme" />
+87-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:23:13-66
+88        <activity
+88-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:24:9-27:69
+89            android:name="com.stripe.android.paymentsheet.paymentdatacollection.bacs.BacsMandateConfirmationActivity"
+89-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:25:13-118
+90            android:exported="false"
+90-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:26:13-37
+91            android:theme="@style/StripePaymentSheetDefaultTheme" />
+91-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:27:13-66
+92        <activity
+92-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:28:9-31:69
+93            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+93-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:29:13-105
+94            android:exported="false"
+94-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:30:13-37
+95            android:theme="@style/StripePaymentSheetDefaultTheme" />
+95-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:31:13-66
+96        <activity
+96-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:32:9-35:69
+97            android:name="com.stripe.android.paymentsheet.ui.SepaMandateActivity"
+97-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:33:13-82
+98            android:exported="false"
+98-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:34:13-37
+99            android:theme="@style/StripePaymentSheetDefaultTheme" />
+99-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:35:13-66
+100        <activity
+100-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:36:9-39:68
+101            android:name="com.stripe.android.paymentsheet.ExternalPaymentMethodProxyActivity"
+101-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:37:13-94
+102            android:exported="false"
+102-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:38:13-37
+103            android:theme="@style/StripePayLauncherDefaultTheme" />
+103-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:39:13-65
+104        <activity
+104-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:40:9-42:69
+105            android:name="com.stripe.android.paymentsheet.paymentdatacollection.cvcrecollection.CvcRecollectionActivity"
+105-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:41:13-121
+106            android:theme="@style/StripePaymentSheetDefaultTheme" />
+106-->[com.stripe:paymentsheet:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\93af26676505e3867579e6a5e6f5ff44\transformed\paymentsheet-21.0.1\AndroidManifest.xml:42:13-66
+107        <activity
+107-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:8:9-15:58
+108            android:name="com.stripe.android.link.LinkActivity"
+108-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:9:13-64
+109            android:autoRemoveFromRecents="true"
+109-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:10:13-49
+110            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+110-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:11:13-115
+111            android:exported="false"
+111-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:12:13-37
+112            android:label="@string/stripe_link"
+112-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:13:13-48
+113            android:theme="@style/StripeLinkBaseTheme"
+113-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:14:13-55
+114            android:windowSoftInputMode="adjustResize" />
+114-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:15:13-55
+115        <activity
+115-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:16:9-21:61
+116            android:name="com.stripe.android.link.LinkForegroundActivity"
+116-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:17:13-74
+117            android:autoRemoveFromRecents="true"
+117-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:18:13-49
+118            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+118-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:19:13-115
+119            android:launchMode="singleTop"
+119-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:20:13-43
+120            android:theme="@style/StripeTransparentTheme" />
+120-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:21:13-58
+121        <activity
+121-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:22:9-39:20
+122            android:name="com.stripe.android.link.LinkRedirectHandlerActivity"
+122-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:23:13-79
+123            android:autoRemoveFromRecents="true"
+123-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:24:13-49
+124            android:exported="true"
+124-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:25:13-36
+125            android:launchMode="singleInstance"
+125-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:26:13-48
+126            android:theme="@style/StripeTransparentTheme" >
+126-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:27:13-58
+127            <intent-filter>
+127-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:28:13-38:29
+128                <action android:name="android.intent.action.VIEW" />
+128-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:29:17-69
+128-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:29:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:31:17-76
+130-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:31:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:32:17-78
+131-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:32:27-75
+132
+133                <data
+133-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:34:17-37:51
+134                    android:host="complete"
+134-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:35:21-44
+135                    android:path="/com.example.agriconnect"
+135-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:36:21-53
+136                    android:scheme="link-popup" />
+136-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:37:21-48
+137            </intent-filter>
+138        </activity>
+139        <activity
+139-->[com.stripe:payments-ui-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\62fa4b3f5acfde46ea21ea4bb5d2e48f\transformed\payments-ui-core-21.0.1\AndroidManifest.xml:8:9-11:69
+140            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+140-->[com.stripe:payments-ui-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\62fa4b3f5acfde46ea21ea4bb5d2e48f\transformed\payments-ui-core-21.0.1\AndroidManifest.xml:9:13-80
+141            android:exported="false"
+141-->[com.stripe:payments-ui-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\62fa4b3f5acfde46ea21ea4bb5d2e48f\transformed\payments-ui-core-21.0.1\AndroidManifest.xml:10:13-37
+142            android:theme="@style/StripePaymentSheetDefaultTheme" />
+142-->[com.stripe:payments-ui-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\62fa4b3f5acfde46ea21ea4bb5d2e48f\transformed\payments-ui-core-21.0.1\AndroidManifest.xml:11:13-66
+143        <activity
+143-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:15:9-18:57
+144            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+144-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:16:13-78
+145            android:exported="false"
+145-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:17:13-37
+146            android:theme="@style/StripeDefaultTheme" />
+146-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:18:13-54
+147        <activity
+147-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:19:9-22:61
+148            android:name="com.stripe.android.view.PaymentRelayActivity"
+148-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:20:13-72
+149            android:exported="false"
+149-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:21:13-37
+150            android:theme="@style/StripeTransparentTheme" />
+150-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:22:13-58
+151        <!--
+152        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+153        launched the browser Activity will also handle the return URL deep link.
+154        -->
+155        <activity
+155-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:28:9-32:61
+156            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+156-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:29:13-85
+157            android:exported="false"
+157-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:30:13-37
+158            android:launchMode="singleTask"
+158-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:31:13-44
+159            android:theme="@style/StripeTransparentTheme" />
+159-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:32:13-58
+160        <activity
+160-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:33:9-50:20
+161            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+161-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:34:13-88
+162            android:exported="true"
+162-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:35:13-36
+163            android:launchMode="singleTask"
+163-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:36:13-44
+164            android:theme="@style/StripeTransparentTheme" >
+164-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:37:13-58
+165            <intent-filter>
+165-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:38:13-49:29
+166                <action android:name="android.intent.action.VIEW" />
+166-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:29:17-69
+166-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:29:25-66
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:31:17-76
+168-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:31:27-73
+169                <category android:name="android.intent.category.BROWSABLE" />
+169-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:32:17-78
+169-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:32:27-75
+170
+171                <!-- Must match `DefaultReturnUrl#value`. -->
+172                <data
+172-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:34:17-37:51
+173                    android:host="payment_return_url"
+173-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:35:21-44
+174                    android:path="/com.example.agriconnect"
+174-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:36:21-53
+175                    android:scheme="stripesdk" />
+175-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:37:21-48
+176            </intent-filter>
+177        </activity>
+178        <activity
+178-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:51:9-54:57
+179            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+179-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:52:13-114
+180            android:exported="false"
+180-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:53:13-37
+181            android:theme="@style/StripeDefaultTheme" />
+181-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:54:13-54
+182        <activity
+182-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:55:9-58:66
+183            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+183-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:56:13-90
+184            android:exported="false"
+184-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:57:13-37
+185            android:theme="@style/StripeGooglePayDefaultTheme" />
+185-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:58:13-63
+186        <activity
+186-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:59:9-62:66
+187            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+187-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:60:13-103
+188            android:exported="false"
+188-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:61:13-37
+189            android:theme="@style/StripeGooglePayDefaultTheme" />
+189-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:62:13-63
+190        <activity
+190-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:63:9-66:68
+191            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+191-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:64:13-107
+192            android:exported="false"
+192-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:65:13-37
+193            android:theme="@style/StripePayLauncherDefaultTheme" />
+193-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:66:13-65
+194        <activity
+194-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:67:9-70:61
+195            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+195-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:68:13-97
+196            android:exported="false"
+196-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:69:13-37
+197            android:theme="@style/StripeTransparentTheme" />
+197-->[com.stripe:payments-core:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\672841bdd3ec7fbbee57bf90806db03f\transformed\payments-core-21.0.1\AndroidManifest.xml:70:13-58
+198        <activity
+198-->[com.stripe:stripe-3ds2-android:6.1.8] C:\Users\Yash\.gradle\caches\8.10.2\transforms\b32b406830ecc8ac1a2fe0834a4ab45c\transformed\stripe-3ds2-android-6.1.8\AndroidManifest.xml:8:9-11:54
+199            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+199-->[com.stripe:stripe-3ds2-android:6.1.8] C:\Users\Yash\.gradle\caches\8.10.2\transforms\b32b406830ecc8ac1a2fe0834a4ab45c\transformed\stripe-3ds2-android-6.1.8\AndroidManifest.xml:9:13-81
+200            android:exported="false"
+200-->[com.stripe:stripe-3ds2-android:6.1.8] C:\Users\Yash\.gradle\caches\8.10.2\transforms\b32b406830ecc8ac1a2fe0834a4ab45c\transformed\stripe-3ds2-android-6.1.8\AndroidManifest.xml:10:13-37
+201            android:theme="@style/Stripe3DS2Theme" />
+201-->[com.stripe:stripe-3ds2-android:6.1.8] C:\Users\Yash\.gradle\caches\8.10.2\transforms\b32b406830ecc8ac1a2fe0834a4ab45c\transformed\stripe-3ds2-android-6.1.8\AndroidManifest.xml:11:13-51
+202        <activity
+202-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
+203            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+203-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+204            android:excludeFromRecents="true"
+204-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+205            android:exported="true"
+205-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
+206            android:launchMode="singleTask"
+206-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+207-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
+208            <intent-filter>
+208-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+209                <action android:name="android.intent.action.VIEW" />
+209-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:29:17-69
+209-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:29:25-66
+210
+211                <category android:name="android.intent.category.DEFAULT" />
+211-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:31:17-76
+211-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:31:27-73
+212                <category android:name="android.intent.category.BROWSABLE" />
+212-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:32:17-78
+212-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:32:27-75
+213
+214                <data
+214-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:34:17-37:51
+215                    android:host="firebase.auth"
+215-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:35:21-44
+216                    android:path="/"
+216-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:36:21-53
+217                    android:scheme="genericidp" />
+217-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:37:21-48
+218            </intent-filter>
+219        </activity>
+220        <activity
+220-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+221            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+221-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+222            android:excludeFromRecents="true"
+222-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+223            android:exported="true"
+223-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
+224            android:launchMode="singleTask"
+224-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+225-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
+226            <intent-filter>
+226-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+227                <action android:name="android.intent.action.VIEW" />
+227-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:29:17-69
+227-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:29:25-66
+228
+229                <category android:name="android.intent.category.DEFAULT" />
+229-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:31:17-76
+229-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:31:27-73
+230                <category android:name="android.intent.category.BROWSABLE" />
+230-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:32:17-78
+230-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:32:27-75
+231
+232                <data
+232-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:34:17-37:51
+233                    android:host="firebase.auth"
+233-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:35:21-44
+234                    android:path="/"
+234-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:36:21-53
+235                    android:scheme="recaptcha" />
+235-->[com.stripe:link:21.0.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cbf97b58e0a9e007f6cec1ee729ec7e2\transformed\link-21.0.1\AndroidManifest.xml:37:21-48
+236            </intent-filter>
+237        </activity>
+238
+239        <service
+239-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:66:9-72:19
+240            android:name="com.google.firebase.components.ComponentDiscoveryService"
+240-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:67:13-84
+241            android:directBootAware="true"
+241-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+242            android:exported="false" >
+242-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
+243            <meta-data
+243-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
+244                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+244-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5bb9f9182745e42a929064e32eb2f7e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
+246            <meta-data
+246-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cfcf522a410c7cadecff6114229ab370\transformed\firebase-firestore-25.1.0\AndroidManifest.xml:17:13-19:85
+247                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+247-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cfcf522a410c7cadecff6114229ab370\transformed\firebase-firestore-25.1.0\AndroidManifest.xml:18:17-122
+248                android:value="com.google.firebase.components.ComponentRegistrar" />
+248-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cfcf522a410c7cadecff6114229ab370\transformed\firebase-firestore-25.1.0\AndroidManifest.xml:19:17-82
+249            <meta-data
+249-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cfcf522a410c7cadecff6114229ab370\transformed\firebase-firestore-25.1.0\AndroidManifest.xml:20:13-22:85
+250                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+250-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cfcf522a410c7cadecff6114229ab370\transformed\firebase-firestore-25.1.0\AndroidManifest.xml:21:17-111
+251                android:value="com.google.firebase.components.ComponentRegistrar" />
+251-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\cfcf522a410c7cadecff6114229ab370\transformed\firebase-firestore-25.1.0\AndroidManifest.xml:22:17-82
+252            <meta-data
+252-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:37:13-39:85
+253                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+253-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:38:17-139
+254                android:value="com.google.firebase.components.ComponentRegistrar" />
+254-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:39:17-82
+255            <meta-data
+255-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\a690e5ed66a3e8d533167ef3ce541a3c\transformed\firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
+256                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+256-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\a690e5ed66a3e8d533167ef3ce541a3c\transformed\firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
+257                android:value="com.google.firebase.components.ComponentRegistrar" />
+257-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\a690e5ed66a3e8d533167ef3ce541a3c\transformed\firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
+258            <meta-data
+258-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\a690e5ed66a3e8d533167ef3ce541a3c\transformed\firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
+259                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+259-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\a690e5ed66a3e8d533167ef3ce541a3c\transformed\firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
+260                android:value="com.google.firebase.components.ComponentRegistrar" />
+260-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\a690e5ed66a3e8d533167ef3ce541a3c\transformed\firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
+261            <meta-data
+261-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\1a323907f8b54b76327789e784cfcb63\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+262                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+262-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\1a323907f8b54b76327789e784cfcb63\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+263                android:value="com.google.firebase.components.ComponentRegistrar" />
+263-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\1a323907f8b54b76327789e784cfcb63\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+264            <meta-data
+264-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\1a323907f8b54b76327789e784cfcb63\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+265                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+265-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\1a323907f8b54b76327789e784cfcb63\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+266                android:value="com.google.firebase.components.ComponentRegistrar" />
+266-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\1a323907f8b54b76327789e784cfcb63\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+267            <meta-data
+267-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\bcf8312bb06eeb7ef2d4692810642aad\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+268                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+268-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\bcf8312bb06eeb7ef2d4692810642aad\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+269                android:value="com.google.firebase.components.ComponentRegistrar" />
+269-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\bcf8312bb06eeb7ef2d4692810642aad\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+270            <meta-data
+270-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\bcf8312bb06eeb7ef2d4692810642aad\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+271                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+271-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\bcf8312bb06eeb7ef2d4692810642aad\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+272                android:value="com.google.firebase.components.ComponentRegistrar" />
+272-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\bcf8312bb06eeb7ef2d4692810642aad\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+273            <meta-data
+273-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\84a4aea7318dd4073cba13f8fd6b0093\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+274                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+274-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\84a4aea7318dd4073cba13f8fd6b0093\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+275                android:value="com.google.firebase.components.ComponentRegistrar" />
+275-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\84a4aea7318dd4073cba13f8fd6b0093\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+276            <meta-data
+276-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+277                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+277-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+278                android:value="com.google.firebase.components.ComponentRegistrar" />
+278-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+279        </service>
+280
+281        <receiver
+281-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:29:9-33:20
+282            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+282-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:30:13-85
+283            android:enabled="true"
+283-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:31:13-35
+284            android:exported="false" >
+284-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:32:13-37
+285        </receiver>
+286
+287        <service
+287-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:35:9-38:40
+288            android:name="com.google.android.gms.measurement.AppMeasurementService"
+288-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:36:13-84
+289            android:enabled="true"
+289-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:37:13-35
+290            android:exported="false" />
+290-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:38:13-37
+291        <service
+291-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:39:9-43:72
+292            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+292-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:40:13-87
+293            android:enabled="true"
+293-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:41:13-35
+294            android:exported="false"
+294-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:42:13-37
+295            android:permission="android.permission.BIND_JOB_SERVICE" />
+295-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\0ecbc0cf1e934fa471614f18ce2dbda7\transformed\play-services-measurement-22.1.0\AndroidManifest.xml:43:13-69
+296
+297        <property
+297-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:30:9-32:61
+298            android:name="android.adservices.AD_SERVICES_CONFIG"
+298-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:31:13-65
+299            android:resource="@xml/ga_ad_services_config" />
+299-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\efa327f6cc1b787b54ee0e4bd51231a0\transformed\play-services-measurement-api-22.1.0\AndroidManifest.xml:32:13-58
+300
+301        <service
+301-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+302            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+302-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+303            android:enabled="true"
+303-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+304            android:exported="false" >
+304-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+305            <meta-data
+305-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+306                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+306-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+307                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+307-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+308        </service>
+309
+310        <activity
+310-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+311            android:name="androidx.credentials.playservices.HiddenActivity"
+311-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+312            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+312-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+313            android:enabled="true"
+313-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+314            android:exported="false"
+314-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+315            android:fitsSystemWindows="true"
+315-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+316            android:theme="@style/Theme.Hidden" >
+316-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Yash\.gradle\caches\8.10.2\transforms\f4724461bc1f39bfa00e898c38014bc2\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+317        </activity>
+318        <activity
+318-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+319            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+319-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+320            android:excludeFromRecents="true"
+320-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+321            android:exported="false"
+321-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+322            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+322-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+323        <!--
+324            Service handling Google Sign-In user revocation. For apps that do not integrate with
+325            Google Sign-In, this service will never be started.
+326        -->
+327        <service
+327-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+328            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+328-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+329            android:exported="true"
+329-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+330            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+330-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+331            android:visibleToInstantApps="true" />
+331-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\fdc04c585adb5f13d659de4a19271a2d\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+332
+333        <provider
+333-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+334            android:name="com.google.firebase.provider.FirebaseInitProvider"
+334-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+335            android:authorities="com.example.agriconnect.firebaseinitprovider"
+335-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+336            android:directBootAware="true"
+336-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+337            android:exported="false"
+337-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+338            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+338-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\3ffc81b5f4a65fdb1ce7634c5a746ff5\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+339        <uses-library
+339-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yash\.gradle\caches\8.10.2\transforms\51e7a165a71fdfeeef9f57d908ce14d8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+340            android:name="org.apache.http.legacy"
+340-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yash\.gradle\caches\8.10.2\transforms\51e7a165a71fdfeeef9f57d908ce14d8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+341            android:required="false" />
+341-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yash\.gradle\caches\8.10.2\transforms\51e7a165a71fdfeeef9f57d908ce14d8\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+342
+343        <activity
+343-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5a1494175eccf45d8a2ac6b61e635d81\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+344            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+344-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5a1494175eccf45d8a2ac6b61e635d81\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+345            android:exported="false"
+345-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5a1494175eccf45d8a2ac6b61e635d81\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+346            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+346-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\5a1494175eccf45d8a2ac6b61e635d81\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+347
+348        <provider
+348-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\6a8f5a42cf99d4e437647558fa7e57ba\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+349            android:name="androidx.startup.InitializationProvider"
+349-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\6a8f5a42cf99d4e437647558fa7e57ba\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+350            android:authorities="com.example.agriconnect.androidx-startup"
+350-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\6a8f5a42cf99d4e437647558fa7e57ba\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+351            android:exported="false" >
+351-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\6a8f5a42cf99d4e437647558fa7e57ba\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+352            <meta-data
+352-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\6a8f5a42cf99d4e437647558fa7e57ba\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+353                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+353-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\6a8f5a42cf99d4e437647558fa7e57ba\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+354                android:value="androidx.startup" />
+354-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\6a8f5a42cf99d4e437647558fa7e57ba\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+355            <meta-data
+355-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Yash\.gradle\caches\8.10.2\transforms\d67bbda76f3d75b6fcb2ee3416539a0b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+356                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+356-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Yash\.gradle\caches\8.10.2\transforms\d67bbda76f3d75b6fcb2ee3416539a0b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+357                android:value="androidx.startup" />
+357-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Yash\.gradle\caches\8.10.2\transforms\d67bbda76f3d75b6fcb2ee3416539a0b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+358            <meta-data
+358-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+359                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+359-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+360                android:value="androidx.startup" />
+360-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+361        </provider>
+362
+363        <uses-library
+363-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Yash\.gradle\caches\8.10.2\transforms\010f311ea6308b308781df2f0181d1a5\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+364            android:name="android.ext.adservices"
+364-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Yash\.gradle\caches\8.10.2\transforms\010f311ea6308b308781df2f0181d1a5\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+365            android:required="false" />
+365-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Yash\.gradle\caches\8.10.2\transforms\010f311ea6308b308781df2f0181d1a5\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+366        <uses-library
+366-->[androidx.window:window:1.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2f5594d04a122102c636efdfec4a6ba9\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+367            android:name="androidx.window.extensions"
+367-->[androidx.window:window:1.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2f5594d04a122102c636efdfec4a6ba9\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+368            android:required="false" />
+368-->[androidx.window:window:1.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2f5594d04a122102c636efdfec4a6ba9\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+369        <uses-library
+369-->[androidx.window:window:1.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2f5594d04a122102c636efdfec4a6ba9\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+370            android:name="androidx.window.sidecar"
+370-->[androidx.window:window:1.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2f5594d04a122102c636efdfec4a6ba9\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+371            android:required="false" />
+371-->[androidx.window:window:1.0.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2f5594d04a122102c636efdfec4a6ba9\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+372
+373        <receiver
+373-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+374            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+374-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+375            android:directBootAware="false"
+375-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+376            android:enabled="true"
+376-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+377            android:exported="true"
+377-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+378            android:permission="android.permission.DUMP" >
+378-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+379            <intent-filter>
+379-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+380                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+380-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+380-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+381            </intent-filter>
+382            <intent-filter>
+382-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+383                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+383-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+383-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+384            </intent-filter>
+385            <intent-filter>
+385-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+386                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+386-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+386-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+387            </intent-filter>
+388            <intent-filter>
+388-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+389                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+389-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+389-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Yash\.gradle\caches\8.10.2\transforms\91d625d08b2f04ffd7d6fc59405fdc15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+390            </intent-filter>
+391        </receiver>
+392
+393        <meta-data
+393-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2e5eccd06afde912b09189d652d89cb6\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+394            android:name="com.google.android.gms.version"
+394-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2e5eccd06afde912b09189d652d89cb6\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+395            android:value="@integer/google_play_services_version" />
+395-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\2e5eccd06afde912b09189d652d89cb6\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+396        <meta-data
+396-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\02c27e7da730d88e8549d875aada0bcb\transformed\instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+397            android:name="aia-compat-api-min-version"
+397-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\02c27e7da730d88e8549d875aada0bcb\transformed\instantapps-1.1.0\AndroidManifest.xml:11:13-54
+398            android:value="1" />
+398-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Yash\.gradle\caches\8.10.2\transforms\02c27e7da730d88e8549d875aada0bcb\transformed\instantapps-1.1.0\AndroidManifest.xml:12:13-30
+399    </application>
+400
+401</manifest>

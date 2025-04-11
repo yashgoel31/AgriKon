@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_new__crops__discriptions.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_new__crops__discriptions.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/market_palce_layout.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/market_palce_layout.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_chat__bot.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_chat__bot.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_crop__detail.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_crop__detail.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_payment_option.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_payment_option.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_new__farming__teachniques.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_new__farming__teachniques.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_farmer__shop.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_farmer__shop.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/croprequridmentinfalter.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/croprequridmentinfalter.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/government_schemes_layout.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/government_schemes_layout.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_contract__farming.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_contract__farming.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_address__confirmation__in__buying__process.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_address__confirmation__in__buying__process.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_contact_us.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_contact_us.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/new_crop_and_techniques_layout.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/new_crop_and_techniques_layout.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/farmer_main.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/farmer_main.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/activity_farmer_layout.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/activity_farmer_layout.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_contact__page.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_contact__page.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/activity_main.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_new_farming__crops.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_new_farming__crops.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_about_us.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_about_us.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_government__scheme__discription.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_government__scheme__discription.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/activity_sign_up.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_government__schemes.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_government__schemes.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_market__place__layout.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_market__place__layout.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/new_farming_teachniques_details.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/new_farming_teachniques_details.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/activity_sign_in.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_product__details.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_product__details.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_home.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/card_cell_them.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/card_cell_them.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_weather__forecast.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_weather__forecast.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/nav_header.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_new__techniques__discriptions.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_new__techniques__discriptions.xml"
+    },
+    {
+        "merged": "com.example.agriconnect.app-mergeDebugResources-102:/layout/fragment_crop__suggestion.xml",
+        "source": "com.example.agriconnect.app-main-105:/layout/fragment_crop__suggestion.xml"
+    }
+]
